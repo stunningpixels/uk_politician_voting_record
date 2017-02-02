@@ -1,0 +1,6 @@
+{
+    "name": "openaustralia/scraperwiki",
+    "require": {
+        "ext-pdo_sqlite": "*"
+    }
+}

@@ -8,7 +8,7 @@ USING https://github.com/paquettg/php-html-parser
 */
 
 echo "Politician Voting Record Scraper\n";
-
+require "scraperwiki-php-morph_defaults/scraperwiki.php";
 require "vendor/autoload.php";
 use PHPHtmlParser\Dom;
 
