@@ -35,8 +35,6 @@ foreach ($votes as $key => $vote){
   }
 }
 
-require 'scraperwiki.php';
-
 foreach($results as $result) {
   scraperwiki::save_sqlite(array('name'), array(
     'name'          => $result['name'], 
