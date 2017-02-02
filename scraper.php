@@ -35,11 +35,6 @@ foreach ($votes as $key => $vote){
   }
 }
 
-print_r($header);
-print_r($results);
-
-
-
 require 'scraperwiki.php';
 
 foreach($results as $result) {
